@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Rald C. Rusiana | Portfolio</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      background-color: #f0f4f8; /* light background */
+      color: #333;
+    }
+    header {
+      background-color: #1a2a40;
+      color: #f9f9f9;
+      padding: 20px;
+      text-align: center;
+      font-size: 22px;
+      letter-spacing: 1px;
+    }
+    nav a {
+      color: #f9f9f9;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+    nav a:hover {
+      color: #ffcc00;
+    }
+    section {
+      padding: 40px;
+      max-width: 900px;
+      margin: auto;
+    }
+    h2 {
+      color: #1a2a40;
+      border-bottom: 3px solid #1a2a40;
+      display: inline-block;
+      margin-bottom: 20px;
+      font-family: 'Georgia', serif;
+    }
+    p {
+      font-size: 16px;
+      line-height: 1.6;
+      color: #444;
+    }
+    .skills, .projects {
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+    .card {
+      background: #ffffff;
+      padding: 20px;
+      border-radius: 12px;
+      flex: 1;
+      min-width: 250px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      transition: transform 0.3s;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+    }
+    footer {
+      background-color: #1a2a40;
+      color: #f9f9f9;
+      text-align: center;
+      padding: 20px;
+      margin-top: 30px;
+      font-size: 14px;
+    }
+    button {
+      background-color: #3498db;
+      color: white;
+      border: none;
+      padding: 12px 24px;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 16px;
+      font-weight: bold;
+    }
+    button:hover {
+      background-color: #1d6fa5;
+    }
+    img.profile {
+      width: 300px; /* larger size */
+      height: 300px;
+      object-fit: cover;
+      border-radius: 50%; /* big circle */
+      margin-bottom: 20px;
+      border: 5px solid #1a2a40;
+      box-shadow: 0 6px 12px rgba(0,0,0,0.2);
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>My Portfolio</h1>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="home">
+    <h2>Welcome</h2>
+    <!-- Profile image stored locally -->
+    <img class="profile" src="images/Profile.jpg.jpg" alt="Rald C. Rusiana">
+    <p style="color:#2c3e50; font-size:18px;"><strong>Hello, I'm Rald C. Rusiana</strong><br>2nd Year BSIT Student</p>
+    <p style="color:#555;">Welcome to my personal portfolio website. I am passionate about web development and programming.</p>
+    <button>Learn More</button>
+  </section>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>Hi! My name is <strong style="color:#2c3e50;">Rald C. Rusiana</strong>. I am currently a 2nd year BSIT student studying Information Technology.</p>
+    <p>I enjoy learning about programming, web development, and technology. I am currently improving my skills in HTML, CSS, and JavaScript.</p>
+  </section>
+
+  <section id="skills">
+    <h2>My Skills</h2>
+    <div class="skills">
+      <div class="card"><h3 style="color:#3498db;">HTML</h3><p>Creating the structure of websites.</p></div>
+      <div class="card"><h3 style="color:#e67e22;">CSS</h3><p>Designing and styling websites.</p></div>
+      <div class="card"><h3 style="color:#27ae60;">JavaScript</h3><p>Adding interaction and functionality.</p></div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2>My Projects</h2>
+    <div class="projects">
+      <div class="card"><h3 style="color:#8e44ad;">Personal Portfolio</h3><p>A simple personal portfolio website created using HTML, CSS, and JavaScript.</p></div>
+      <div class="card"><h3 style="color:#c0392b;">Student Website</h3><p>A simple website project created for a college activity.</p></div>
+      <div class="card"><h3 style="color:#16a085;">Simple Calculator</h3><p>A basic calculator made using HTML, CSS, and JavaScript.</p></div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <p>Email: <span style="color:#3498db;">caneterusiana@gmail.com</span></p>
+    <p>Facebook: <span style="color:#3498db;">Rald Rusiana</span></p>
+    <p>Number: <span style="color:#3498db;">09513551333</span></p>
+    <button>Say Hello</button>
+  </section>
+
+  <footer>
+    © 2026 Rald Rusiana | 2nd Year BSIT Student
+  </footer>
+</body>
+</html>
